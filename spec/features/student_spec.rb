@@ -20,7 +20,7 @@ end
 
 describe 'Show page' do
   before do
-    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
+    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen", active: false)
   end
 
   it 'renders properly' do
